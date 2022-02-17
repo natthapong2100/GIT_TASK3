@@ -25,7 +25,7 @@ class Walk( Transportation ):
 
    
 # main program
-
+bird = "hello bird"
 travel_cost = 0
 
 #trip = [ Walk("KMITL","KMITL SCB Bank",0.6),
