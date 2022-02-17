@@ -21,6 +21,15 @@ class Walk(Transportation):
     def find_cost(self):
         return 0
 
+class Train(Transportation):
+
+    def init(self, start, end, distance, station):
+        Transportation.init(self, start, end, distance)
+        self.station = station
+
+    def find_cost(self):
+        return self.station * 5
+
 
 
 
