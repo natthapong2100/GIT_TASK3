@@ -20,6 +20,7 @@ class Walk( Transportation ):
 
    def find_cost( self ):
       return 0
+      pass
 
 
    
